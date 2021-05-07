@@ -1,0 +1,12 @@
+{
+  "name": "Okadai Syllabus Helper",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This extention improves the utilization of Okadai Syllabus.",
+  "content_scripts": [{
+    "matches": ["https://kyomu.adm.okayama-u.ac.jp/Portal/Public/Syllabus/SearchMain.aspx"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
